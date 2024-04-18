@@ -11,5 +11,7 @@ namespace DotNetCP2.Data
         }
 
         public DbSet<User> t_Users { get; set; }
+
+
     }
 }
