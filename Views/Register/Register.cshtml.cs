@@ -2,7 +2,7 @@
 
 namespace DotNetCP2.Views.Login
 {
-    public class LoginModel : PageModel
+    public class RegisterModel : PageModel
     {
         public void OnGet()
         {
