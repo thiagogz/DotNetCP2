@@ -1,3 +1,23 @@
 ﻿@{
-	ViewData["Title"] = "Login";
+    ViewData["Title"] = "Login";
 }
+
+<h1>Login</h1>
+
+<form asp-controller="Login" asp-action="LoginDTO" method="post">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input name="UserEmail" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+
+    <div class="mb-3">
+        <label for="inputUserName" class="form-label">Username</label>
+        <input name="UserName" type="text" id="inputUserName" class="form-control" placeholder="Username">
+    </div>
+
+    <div class="mb-3">
+        <label for="inputPassword1" class="form-label">Password</label>
+        <input name="UserPassword" type="password" id="inputPassword" class="form-control" placeholder="********">
+    </div>
+    <button type="submit">Login</button>
+</form>
