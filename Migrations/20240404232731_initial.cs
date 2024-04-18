@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 #nullable disable
 
-namespace FIAP_MVC_RM97890.Migrations
+namespace DotNetCP2.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration
