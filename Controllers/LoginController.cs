@@ -28,7 +28,7 @@ namespace DotNetCP2.Controllers
             {
                 return NotFound();
             }
-            if (find.UserPassword != find.UserPassword)
+            if (find.UserPassword != request.UserPassword)
             {
                 return BadRequest("Senha inválida!");
             }
