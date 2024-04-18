@@ -14,9 +14,5 @@ namespace DotNetCP2.DTOs
         [Required]
         [DataType(DataType.Password)]
         public string UserPassword { get; set; } = string.Empty;
-
-        [DataType(DataType.Password)]
-        [Compare("UserPassword", ErrorMessage = "")]
-        public string ConfirmPassword { get; set; }
     }
 }
