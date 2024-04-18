@@ -3,7 +3,7 @@ using FIAP_MVC_RM97890.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace FIAP_MVC_RM97890.Controllers
+namespace DotNetCP2.Controllers
 {
     public class HomeController : Controller
     {
