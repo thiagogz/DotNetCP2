@@ -1,5 +1,5 @@
-using FIAP_MVC_RM97890.Data;
-using FIAP_MVC_RM97890.Models;
+using DotNetCP2.Data;
+using DotNetCP2.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
