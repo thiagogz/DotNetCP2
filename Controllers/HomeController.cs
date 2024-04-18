@@ -1,15 +1,18 @@
-using DotNetCP2.Models;
+using FIAP_MVC_RM97890.Data;
+using FIAP_MVC_RM97890.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DotNetCP2.Controllers
+namespace FIAP_MVC_RM97890.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly DataContext _dataContext;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, DataContext dataContext)
         {
+            _dataContext = dataContext;
             _logger = logger;
         }
 
